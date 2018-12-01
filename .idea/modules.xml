@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FarKingdomServer.iml" filepath="$PROJECT_DIR$/.idea/modules/FarKingdomServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/farkingdomserver-build.iml" filepath="$PROJECT_DIR$/.idea/modules/farkingdomserver-build.iml" />
+    </modules>
+  </component>
+</project>
