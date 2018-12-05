@@ -74,7 +74,14 @@ object ConnectionState {
             registerServerPacket(classOf[SPacketDisconnect])
             registerServerPacket(classOf[SPacketWorldLoad])
 
+           // registerServerPacket(classOf[SPacketLocInfo])
+         //   registerServerPacket(classOf[CPlayerMove])
+            registerServerPacket(classOf[SLocationPlayer])
+            //registerServerPacket(classOf[SPacketPlayerInfo])
+           // registerServerPacket(classOf[SLocUpdate])
 
+
+            registerClientPacket(classOf[SPlayerAction])
 //            registerServerPacket(classOf[SPacketPlayerInfo])
 //            registerServerPacket(classOf[SPacketLocInfo])
 //            registerServerPacket(classOf[SPacketInventory])

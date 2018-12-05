@@ -1,15 +1,38 @@
 USE `farkingdom`;
 
 
-INSERT INTO player_auth (login, email, password, sex, race, online, date_last_login, date_registry) VALUES ('Test_1','test@mail.ru','1111','man','1',FALSE ,NULL ,NULL);
-INSERT INTO player_auth (login, email, password, sex, race, online, date_last_login, date_registry) VALUES ('Test_2','aaaa@mail.ru','1111','woman','1',FALSE,NULL,NULL);
-INSERT INTO player_auth (login, email, password, sex, race, online, date_last_login, date_registry) VALUES ('Test_3','qwer@mail.ru','1111','man','2',FALSE,NULL,NULL);
-INSERT INTO player_auth (login, email, password, sex, race, online, date_last_login, date_registry) VALUES ('Test_4','bbbb@mail.ru','1111','woman','2',FALSE,NULL,NULL);
+INSERT INTO player_auth (login, email, password, sex, race, online,xpos,ypos) VALUES ('Test_1','test@mail.ru','1111','man','1',FALSE,1,1);
+INSERT INTO player_auth (login, email, password, sex, race, online,xpos,ypos) VALUES ('Test_2','aaaa@mail.ru','1111','woman','1',FALSE,-1,-1);
+INSERT INTO player_auth (login, email, password, sex, race, online,xpos,ypos) VALUES ('Test_3','qwer@mail.ru','1111','man','2',FALSE,1,-1);
+INSERT INTO player_auth (login, email, password, sex, race, online,xpos,ypos) VALUES ('Test_4','bbbb@mail.ru','1111','woman','2',FALSE,-1,1);
 
---
--- INSERT INTO player_info  VALUES ();
--- INSERT INTO player_info  VALUES ();
--- INSERT INTO player_info  VALUES ();
--- INSERT INTO player_info  VALUES ();
+
+INSERT INTO unit(name)  VALUES ('0');
+INSERT INTO unit(name)  VALUES ('1');
+INSERT INTO unit(name)  VALUES ('2');
+INSERT INTO unit(name)  VALUES ('3');
+INSERT INTO unit(name)  VALUES ('4');
+INSERT INTO unit(name)  VALUES ('5');
+INSERT INTO unit(name)  VALUES ('6');
+INSERT INTO unit(name)  VALUES ('7');
+INSERT INTO unit(name)  VALUES ('8');
+INSERT INTO unit(name)  VALUES ('9');
+
+
+INSERT INTO unit_world(unitid, count)  VALUES (2,45);
+INSERT INTO unit_world(unitid, count)  VALUES (3,4);
+INSERT INTO unit_world(unitid, count)  VALUES (4,78);
+INSERT INTO unit_world(unitid, count)  VALUES (5,788);
+INSERT INTO unit_world(unitid, count)  VALUES (6,4564);
+INSERT INTO unit_world(unitid, count)  VALUES (7,122);
+INSERT INTO unit_world(unitid, count)  VALUES (8,456);
+INSERT INTO unit_world(unitid, count)  VALUES (9,465);
+INSERT INTO unit_world(unitid, count)  VALUES (2,89);
+
+INSERT INTO army(xpos, ypos, name, unit1, unit2)  VALUES (5,5,'2',1,9);
+INSERT INTO army(xpos, ypos, name,  unit2, unit3)    VALUES (-4,5,'3',2,3);
+INSERT INTO army(xpos, ypos, name,  unit2,  unit4, unit5)  VALUES (8,-7,'4',4,6,8);
+INSERT INTO army(xpos, ypos, name,  unit2)    VALUES (-5,-5,'2',7);
+
 
 

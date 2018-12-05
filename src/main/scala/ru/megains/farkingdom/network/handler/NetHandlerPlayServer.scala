@@ -1,11 +1,11 @@
 package ru.megains.farkingdom.network.handler
 
-
+import ru.megains.farkingdom.PlayerAction._
 import ru.megains.farkingdom.network.packet.Packet
-import ru.megains.farkingdom.network.packet.play.CPacketAction
-import ru.megains.farkingdom.{FKServer, Logger}
+import ru.megains.farkingdom.network.packet.play.{CPacketAction, SPlayerAction}
+import ru.megains.farkingdom.{FKServer, Logger, Player}
 
-class NetHandlerPlayServer(server: FKServer/*, player: Player*/) extends INetHandlerPlayServer with Logger[NetHandlerPlayServer] {
+class NetHandlerPlayServer(server: FKServer, player: Player) extends INetHandlerPlayServer with Logger[NetHandlerPlayServer] {
 
 
 
@@ -26,6 +26,15 @@ class NetHandlerPlayServer(server: FKServer/*, player: Player*/) extends INetHan
 
     def disconnect(msg: String): Unit ={
        // networkManager.disconnect(msg)
+    }
+
+    def playerAction(action: SPlayerAction): Unit = {
+        action.playerAction match {
+            case MOVE =>
+                server.world.movePlayer(player, action.par1,action.par2)
+            case _=>
+        }
+
     }
 
 

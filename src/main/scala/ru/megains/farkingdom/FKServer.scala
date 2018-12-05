@@ -1,6 +1,7 @@
 package ru.megains.farkingdom
 
 import ru.megains.farkingdom.network.NetworkSystem
+import ru.megains.farkingdom.world.World
 
 class FKServer extends Logger [FKServer]{
 
@@ -17,7 +18,7 @@ class FKServer extends Logger [FKServer]{
     val networkSystem = new NetworkSystem(this)
 
     def start(): Boolean ={
-        world = new World()
+        world = new World(this)
         world.createMap()
 
         playerList = new PlayerList(this)

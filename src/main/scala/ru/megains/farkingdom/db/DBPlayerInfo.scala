@@ -1,6 +1,7 @@
 package ru.megains.farkingdom.db
 
 import anorm.SQL
+import ru.megains.farkingdom.{Parsers, Player}
 
 
 object DBPlayerInfo extends Database {
@@ -19,4 +20,10 @@ object DBPlayerInfo extends Database {
             SQL(s"UPDATE player_info SET location='$locationId' WHERE id='$playerId'").execute()
         )
     }
+
+        def load(): List[Player] = {
+            withConnection(implicit c =>
+                SQL(s"SELECT * FROM player_auth").as(Parsers.player *)
+            )
+        }
 }

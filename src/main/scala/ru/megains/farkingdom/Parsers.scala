@@ -4,7 +4,73 @@ import anorm.SqlParser.get
 import anorm.{RowParser, ~}
 
 object Parsers {
-//    val itemParam : RowParser[(ItemParam,Int)] = {
+    val worldUnit: RowParser[(Int,Int)] = {
+        get[Int]("unitid") ~
+                    get[Int]("count") map{
+                case unitid~count =>(unitid,count)
+        }
+    }
+
+    val army: RowParser[Army] = {
+        get[Int]("id") ~
+                get[Int]("xpos") ~
+                get[Int]("ypos") ~
+                get[String]("name")~
+                get[Int]("unit1").? ~
+                get[Int]("unit2").? ~
+                get[Int]("unit3").? ~
+                get[Int]("unit4").? ~
+                get[Int]("unit5").? map{
+            case idIn~xpos~ypos~nameIn~unit1~unit2~unit3~unit4~unit5 =>
+                val army =new Army(){
+                    id = idIn
+                    posX =xpos
+                    posY = ypos
+                    name = nameIn
+                    unit1 match {
+                        case Some(value) =>
+                            units(0) = Units.getWorldUnit(value)
+                        case None =>
+                    }
+                    unit2 match {
+                        case Some(value) =>
+                            units(1) = Units.getWorldUnit(value)
+                        case None =>
+                    }
+                    unit3 match {
+                        case Some(value) =>
+                            units(2) = Units.getWorldUnit(value)
+                        case None =>
+                    }
+                    unit4 match {
+                        case Some(value) =>
+                            units(3) = Units.getWorldUnit(value)
+                        case None =>
+                    }
+                    unit5 match {
+                        case Some(value) =>
+                            units(4) = Units.getWorldUnit(value)
+                        case None =>
+                    }
+                }
+                army
+
+        }
+    }
+
+    val player : RowParser[Player] = {
+        get[Int]("id") ~
+                get[String]("login")~
+                get[Int]("xpos") ~
+                get[Int]("ypos") map{
+            case id~login~xpos~ypos =>new Player(id,login){
+                x = xpos
+                y = ypos
+            }
+        }
+    }
+
+    //    val itemParam : RowParser[(ItemParam,Int)] = {
 //        get[String]("param") ~
 //                get[Int]("value")  map{
 //            case param~value =>(ItemParam.withName(param) ,value)
@@ -19,6 +85,15 @@ object Parsers {
 //
 //
 //    }
+
+    val baseUnit : RowParser[BaseUnit] = {
+        get[Int]("id") ~
+                get[String]("name") map{
+            case id~name =>new BaseUnit(id,name)
+        }
+    }
+
+
 
     var loc_object : RowParser[(Int,Int,String,Int)] = {
         get[Int]("id") ~
