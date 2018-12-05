@@ -1,16 +1,12 @@
-[00:12:55:340] [main/INFO]: Server start
-[00:12:55:971] [main/INFO]: Start NetworkSystem
-[00:12:56:150] [main/INFO]: Server run
-[00:13:01:910] [nioEventLoopGroup-0-1/INFO]: Соединение установлено
-[00:13:01:951] [nioEventLoopGroup-0-1/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
-[00:13:01:951] [nioEventLoopGroup-0-1/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 16
-[00:13:01:961] [nioEventLoopGroup-0-1/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
-[00:13:01:974] [nioEventLoopGroup-0-1/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 209148
-[00:13:01:980] [nioEventLoopGroup-0-1/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:13:01:980] [nioEventLoopGroup-0-1/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:13:01:980] [nioEventLoopGroup-0-1/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:13:01:980] [nioEventLoopGroup-0-1/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:13:02:752] [nioEventLoopGroup-0-1/INFO]: exceptionCaught
+[20:28:29:884] [main/INFO]: Server start
+[20:28:30:032] [main/INFO]: Start NetworkSystem
+[20:28:30:417] [main/INFO]: Server run
+[20:28:34:727] [nioEventLoopGroup-0-1/INFO]: Соединение установлено
+[20:28:34:835] [nioEventLoopGroup-0-2/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
+[20:28:34:836] [nioEventLoopGroup-0-2/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 6
+[20:28:35:249] [nioEventLoopGroup-0-2/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
+[20:28:35:259] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 81622
+[20:28:56:411] [nioEventLoopGroup-0-2/INFO]: exceptionCaught
 java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
 	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_151]
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_151]
@@ -32,73 +28,13 @@ java.io.IOException: Удаленный хост принудительно ра
 	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
 	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
 	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
-[00:13:02:768] [nioEventLoopGroup-0-1/INFO]: Соединение разорвано
-[00:13:36:041] [nioEventLoopGroup-0-2/INFO]: Соединение установлено
-[00:13:36:071] [nioEventLoopGroup-0-2/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
-[00:13:36:081] [nioEventLoopGroup-0-2/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 16
-[00:13:36:081] [nioEventLoopGroup-0-2/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
-[00:13:36:081] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 209148
-[00:13:36:086] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:13:36:086] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:13:36:087] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:13:36:087] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:13:38:941] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:13:38:941] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:13:40:531] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:13:40:531] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:13:55:641] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:13:55:641] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:13:58:601] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:13:58:601] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:13:59:681] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:13:59:681] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:14:00:701] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:00:701] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:14:01:541] [nioEventLoopGroup-0-8/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:01:541] [nioEventLoopGroup-0-8/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:14:02:351] [nioEventLoopGroup-0-8/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:02:820] [nioEventLoopGroup-0-8/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:02:820] [nioEventLoopGroup-0-8/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:14:03:261] [nioEventLoopGroup-0-8/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:03:271] [nioEventLoopGroup-0-8/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:14:03:601] [nioEventLoopGroup-0-8/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:03:601] [nioEventLoopGroup-0-8/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:14:04:081] [nioEventLoopGroup-0-8/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:04:081] [nioEventLoopGroup-0-8/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:14:04:811] [nioEventLoopGroup-0-8/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:04:811] [nioEventLoopGroup-0-8/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:14:05:475] [nioEventLoopGroup-0-6/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:05:475] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:14:07:101] [nioEventLoopGroup-0-6/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:07:680] [nioEventLoopGroup-0-6/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:07:680] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:14:12:541] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:12:541] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:14:12:831] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:12:831] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:14:13:071] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:13:071] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:14:13:305] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:13:305] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:14:13:551] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:13:551] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:14:13:811] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:13:821] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:14:14:321] [nioEventLoopGroup-0-0/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:14:681] [nioEventLoopGroup-0-0/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:14:681] [nioEventLoopGroup-0-0/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:14:15:071] [nioEventLoopGroup-0-0/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:15:071] [nioEventLoopGroup-0-0/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:14:15:302] [nioEventLoopGroup-0-0/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:15:302] [nioEventLoopGroup-0-0/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:14:15:531] [nioEventLoopGroup-0-0/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:15:861] [nioEventLoopGroup-0-0/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:15:871] [nioEventLoopGroup-0-0/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:14:16:110] [nioEventLoopGroup-0-0/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:16:121] [nioEventLoopGroup-0-0/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:14:16:471] [nioEventLoopGroup-0-0/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:14:16:471] [nioEventLoopGroup-0-0/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:14:21:731] [nioEventLoopGroup-0-0/INFO]: exceptionCaught
+[20:28:56:417] [nioEventLoopGroup-0-2/INFO]: Соединение разорвано
+[21:15:47:428] [nioEventLoopGroup-0-2/INFO]: Соединение установлено
+[21:15:47:519] [nioEventLoopGroup-0-2/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
+[21:15:47:549] [nioEventLoopGroup-0-2/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 6
+[21:15:47:550] [nioEventLoopGroup-0-2/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
+[21:15:47:552] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 81622
+[21:15:52:889] [nioEventLoopGroup-0-2/INFO]: exceptionCaught
 java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
 	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_151]
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_151]
@@ -120,92 +56,6 @@ java.io.IOException: Удаленный хост принудительно ра
 	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
 	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
 	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
-[00:14:21:733] [nioEventLoopGroup-0-0/INFO]: Соединение разорвано
-[00:15:17:795] [nioEventLoopGroup-0-2/INFO]: Соединение установлено
-[00:15:17:830] [nioEventLoopGroup-0-2/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
-[00:15:17:830] [nioEventLoopGroup-0-2/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 16
-[00:15:17:834] [nioEventLoopGroup-0-2/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
-[00:15:17:834] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 209148
-[00:15:17:834] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:17:834] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:17:834] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:17:834] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:19:170] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:19:170] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:20:801] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:20:801] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:21:820] [nioEventLoopGroup-0-8/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:22:420] [nioEventLoopGroup-0-8/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:23:020] [nioEventLoopGroup-0-8/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:23:020] [nioEventLoopGroup-0-8/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:25:931] [nioEventLoopGroup-0-6/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:25:931] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:26:738] [nioEventLoopGroup-0-6/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:27:450] [nioEventLoopGroup-0-6/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:27:450] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:28:122] [nioEventLoopGroup-0-6/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:28:122] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:28:651] [nioEventLoopGroup-0-6/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:28:651] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:32:680] [nioEventLoopGroup-0-6/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:32:680] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:33:301] [nioEventLoopGroup-0-6/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:33:301] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:37:600] [nioEventLoopGroup-0-6/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:37:600] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:38:388] [nioEventLoopGroup-0-6/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:38:388] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:40:951] [nioEventLoopGroup-0-6/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:40:951] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:42:680] [nioEventLoopGroup-0-6/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:42:680] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:43:470] [nioEventLoopGroup-0-6/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:43:470] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:44:220] [nioEventLoopGroup-0-6/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:44:220] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:44:772] [nioEventLoopGroup-0-6/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:44:772] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:45:220] [nioEventLoopGroup-0-1/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:45:530] [nioEventLoopGroup-0-1/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:45:530] [nioEventLoopGroup-0-1/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:46:940] [nioEventLoopGroup-0-1/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:46:940] [nioEventLoopGroup-0-1/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:47:650] [nioEventLoopGroup-0-8/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:47:650] [nioEventLoopGroup-0-8/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:47:930] [nioEventLoopGroup-0-8/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:47:930] [nioEventLoopGroup-0-8/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:48:820] [nioEventLoopGroup-0-0/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:48:820] [nioEventLoopGroup-0-0/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:49:720] [nioEventLoopGroup-0-0/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:49:720] [nioEventLoopGroup-0-0/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:51:270] [nioEventLoopGroup-0-0/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:51:270] [nioEventLoopGroup-0-0/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:53:051] [nioEventLoopGroup-0-0/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:53:051] [nioEventLoopGroup-0-0/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:54:031] [nioEventLoopGroup-0-0/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:54:031] [nioEventLoopGroup-0-0/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:15:56:230] [nioEventLoopGroup-0-6/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
-[00:15:56:230] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
-[00:16:04:433] [nioEventLoopGroup-0-6/INFO]: exceptionCaught
-java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
-	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_151]
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_151]
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_151]
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_151]
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_151]
-	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:311) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:853) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:240) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
-	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
-	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
-	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
-	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
-	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
-	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
-[00:16:04:433] [nioEventLoopGroup-0-6/INFO]: Соединение разорвано
+[21:15:52:889] [nioEventLoopGroup-0-2/INFO]: Соединение разорвано
+[22:51:00:322] [nioEventLoopGroup-0-4/INFO]: Соединение установлено
+[22:51:01:773] [nioEventLoopGroup-0-4/INFO]: Соединение разорвано
