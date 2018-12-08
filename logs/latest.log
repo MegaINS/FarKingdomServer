@@ -1,12 +1,30 @@
-[20:28:29:884] [main/INFO]: Server start
-[20:28:30:032] [main/INFO]: Start NetworkSystem
-[20:28:30:417] [main/INFO]: Server run
-[20:28:34:727] [nioEventLoopGroup-0-1/INFO]: Соединение установлено
-[20:28:34:835] [nioEventLoopGroup-0-2/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
-[20:28:34:836] [nioEventLoopGroup-0-2/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 6
-[20:28:35:249] [nioEventLoopGroup-0-2/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
-[20:28:35:259] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 81622
-[20:28:56:411] [nioEventLoopGroup-0-2/INFO]: exceptionCaught
+[00:46:17:899] [main/INFO]: Server start
+[00:46:18:537] [main/INFO]: Start NetworkSystem
+[00:46:18:712] [main/INFO]: Server run
+[00:46:29:460] [nioEventLoopGroup-0-1/INFO]: Соединение установлено
+[00:46:29:504] [nioEventLoopGroup-0-1/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
+[00:46:29:505] [nioEventLoopGroup-0-1/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 16
+[00:46:29:509] [nioEventLoopGroup-0-1/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
+[00:46:29:523] [nioEventLoopGroup-0-1/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 209410
+[00:46:29:527] [nioEventLoopGroup-0-1/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:46:29:528] [nioEventLoopGroup-0-1/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:46:29:528] [nioEventLoopGroup-0-1/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:46:29:529] [nioEventLoopGroup-0-1/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:46:36:635] [nioEventLoopGroup-0-1/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:46:36:636] [nioEventLoopGroup-0-1/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:46:38:285] [nioEventLoopGroup-0-1/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:46:38:285] [nioEventLoopGroup-0-1/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:46:39:251] [nioEventLoopGroup-0-1/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:46:39:252] [nioEventLoopGroup-0-1/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:46:40:568] [nioEventLoopGroup-0-1/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:46:42:284] [nioEventLoopGroup-0-1/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:46:42:284] [nioEventLoopGroup-0-1/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:46:43:634] [nioEventLoopGroup-0-1/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:46:43:634] [nioEventLoopGroup-0-1/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:46:44:735] [nioEventLoopGroup-0-1/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:46:44:735] [nioEventLoopGroup-0-1/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:46:46:084] [nioEventLoopGroup-0-1/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:47:37:634] [nioEventLoopGroup-0-1/INFO]: exceptionCaught
 java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
 	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_151]
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_151]
@@ -28,13 +46,47 @@ java.io.IOException: Удаленный хост принудительно ра
 	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
 	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
 	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
-[20:28:56:417] [nioEventLoopGroup-0-2/INFO]: Соединение разорвано
-[21:15:47:428] [nioEventLoopGroup-0-2/INFO]: Соединение установлено
-[21:15:47:519] [nioEventLoopGroup-0-2/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
-[21:15:47:549] [nioEventLoopGroup-0-2/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 6
-[21:15:47:550] [nioEventLoopGroup-0-2/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
-[21:15:47:552] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 81622
-[21:15:52:889] [nioEventLoopGroup-0-2/INFO]: exceptionCaught
+[00:47:37:639] [nioEventLoopGroup-0-1/INFO]: Соединение разорвано
+[00:47:42:313] [nioEventLoopGroup-0-2/INFO]: Соединение установлено
+[00:47:42:353] [nioEventLoopGroup-0-2/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
+[00:47:42:353] [nioEventLoopGroup-0-2/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 16
+[00:47:42:355] [nioEventLoopGroup-0-2/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
+[00:47:42:358] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 209410
+[00:47:42:360] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:47:42:360] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:47:42:361] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:47:42:361] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:47:44:097] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:47:44:097] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:47:49:419] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:47:49:419] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:47:52:203] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:47:52:203] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:47:54:353] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:47:54:353] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:47:56:435] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:47:56:435] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:47:58:335] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:47:58:335] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:48:00:153] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:48:00:153] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:48:02:135] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:48:03:818] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:48:03:819] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:48:06:353] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:48:06:353] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:48:08:203] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:48:08:203] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:48:09:786] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:48:09:786] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:48:10:568] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:48:10:569] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:48:12:719] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:48:12:720] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:48:15:902] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:48:16:669] [nioEventLoopGroup-0-2/INFO]: Decoder PLAY, packet SPlayerAction, id 0, size 14
+[00:48:16:669] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:48:47:030] [nioEventLoopGroup-0-3/INFO]: exceptionCaught
 java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
 	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_151]
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_151]
@@ -56,6 +108,484 @@ java.io.IOException: Удаленный хост принудительно ра
 	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
 	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
 	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
-[21:15:52:889] [nioEventLoopGroup-0-2/INFO]: Соединение разорвано
-[22:51:00:322] [nioEventLoopGroup-0-4/INFO]: Соединение установлено
-[22:51:01:773] [nioEventLoopGroup-0-4/INFO]: Соединение разорвано
+[00:48:47:031] [nioEventLoopGroup-0-3/INFO]: Соединение разорвано
+[00:49:00:916] [nioEventLoopGroup-0-0/INFO]: Соединение установлено
+[00:49:00:951] [nioEventLoopGroup-0-0/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
+[00:49:00:951] [nioEventLoopGroup-0-0/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 16
+[00:49:00:954] [nioEventLoopGroup-0-0/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
+[00:49:00:955] [nioEventLoopGroup-0-0/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 209410
+[00:49:00:957] [nioEventLoopGroup-0-0/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:49:00:957] [nioEventLoopGroup-0-0/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:49:00:957] [nioEventLoopGroup-0-0/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:49:00:957] [nioEventLoopGroup-0-0/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:49:45:379] [nioEventLoopGroup-0-0/INFO]: exceptionCaught
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_151]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:311) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:853) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:240) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+[00:49:45:379] [nioEventLoopGroup-0-0/INFO]: Соединение разорвано
+[00:49:50:017] [nioEventLoopGroup-0-2/INFO]: Соединение установлено
+[00:49:50:048] [nioEventLoopGroup-0-2/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
+[00:49:50:049] [nioEventLoopGroup-0-2/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 16
+[00:49:50:051] [nioEventLoopGroup-0-2/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
+[00:49:50:052] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 209410
+[00:49:50:053] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:49:50:054] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:49:50:054] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[00:49:50:054] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:04:24:059] [nioEventLoopGroup-0-2/INFO]: exceptionCaught
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_151]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:311) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:853) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:240) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+[01:04:24:060] [nioEventLoopGroup-0-2/INFO]: Соединение разорвано
+[01:04:28:924] [nioEventLoopGroup-0-0/INFO]: Соединение установлено
+[01:04:28:952] [nioEventLoopGroup-0-0/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
+[01:04:28:954] [nioEventLoopGroup-0-0/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 16
+[01:04:28:956] [nioEventLoopGroup-0-0/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
+[01:04:28:958] [nioEventLoopGroup-0-0/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 209410
+[01:04:28:959] [nioEventLoopGroup-0-0/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:04:28:960] [nioEventLoopGroup-0-0/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:04:28:960] [nioEventLoopGroup-0-0/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:04:28:960] [nioEventLoopGroup-0-0/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:04:37:802] [nioEventLoopGroup-0-0/INFO]: exceptionCaught
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_151]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:311) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:853) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:240) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+[01:04:37:803] [nioEventLoopGroup-0-0/INFO]: Соединение разорвано
+[01:06:25:212] [nioEventLoopGroup-0-2/INFO]: Соединение установлено
+[01:06:25:247] [nioEventLoopGroup-0-2/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
+[01:06:25:249] [nioEventLoopGroup-0-2/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 16
+[01:06:25:250] [nioEventLoopGroup-0-2/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
+[01:06:25:252] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 209410
+[01:06:25:253] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:06:25:254] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:06:25:254] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:06:25:254] [nioEventLoopGroup-0-2/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:06:30:601] [nioEventLoopGroup-0-2/INFO]: exceptionCaught
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_151]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:311) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:853) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:240) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+[01:06:30:601] [nioEventLoopGroup-0-2/INFO]: Соединение разорвано
+[01:12:45:813] [nioEventLoopGroup-0-5/INFO]: Соединение установлено
+[01:12:45:850] [nioEventLoopGroup-0-5/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
+[01:12:45:850] [nioEventLoopGroup-0-5/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 16
+[01:12:45:852] [nioEventLoopGroup-0-5/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
+[01:12:45:854] [nioEventLoopGroup-0-5/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 209410
+[01:12:45:855] [nioEventLoopGroup-0-5/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:12:45:855] [nioEventLoopGroup-0-5/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:12:45:856] [nioEventLoopGroup-0-5/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:12:45:856] [nioEventLoopGroup-0-5/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:13:36:123] [nioEventLoopGroup-0-5/INFO]: exceptionCaught
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_151]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:311) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:853) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:240) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+[01:13:36:123] [nioEventLoopGroup-0-5/INFO]: Соединение разорвано
+[01:13:42:200] [nioEventLoopGroup-0-6/INFO]: Соединение установлено
+[01:13:42:240] [nioEventLoopGroup-0-6/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
+[01:13:42:240] [nioEventLoopGroup-0-6/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 16
+[01:13:42:242] [nioEventLoopGroup-0-6/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
+[01:13:42:243] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 209410
+[01:13:42:245] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:13:42:245] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:13:42:245] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:13:42:246] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:15:17:152] [nioEventLoopGroup-0-0/INFO]: exceptionCaught
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_151]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:311) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:853) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:240) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+[01:15:17:153] [nioEventLoopGroup-0-0/INFO]: Соединение разорвано
+[01:15:22:377] [nioEventLoopGroup-0-8/INFO]: Соединение установлено
+[01:15:22:419] [nioEventLoopGroup-0-8/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
+[01:15:22:419] [nioEventLoopGroup-0-8/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 16
+[01:15:22:421] [nioEventLoopGroup-0-8/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
+[01:15:22:422] [nioEventLoopGroup-0-8/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 209410
+[01:15:22:423] [nioEventLoopGroup-0-8/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:15:22:424] [nioEventLoopGroup-0-8/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:15:22:424] [nioEventLoopGroup-0-8/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:15:22:424] [nioEventLoopGroup-0-8/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:19:24:449] [nioEventLoopGroup-0-8/INFO]: exceptionCaught
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_151]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:311) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:853) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:240) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+[01:19:24:450] [nioEventLoopGroup-0-8/INFO]: Соединение разорвано
+[01:19:29:668] [nioEventLoopGroup-0-4/INFO]: Соединение установлено
+[01:19:29:710] [nioEventLoopGroup-0-4/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
+[01:19:29:710] [nioEventLoopGroup-0-4/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 16
+[01:19:29:712] [nioEventLoopGroup-0-4/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
+[01:19:29:713] [nioEventLoopGroup-0-4/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 209410
+[01:19:29:714] [nioEventLoopGroup-0-4/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:19:29:714] [nioEventLoopGroup-0-4/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:19:29:714] [nioEventLoopGroup-0-4/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:19:29:714] [nioEventLoopGroup-0-4/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:22:48:945] [nioEventLoopGroup-0-8/INFO]: exceptionCaught
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_151]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:311) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:853) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:240) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+[01:22:48:946] [nioEventLoopGroup-0-8/INFO]: Соединение разорвано
+[01:22:52:757] [nioEventLoopGroup-0-10/INFO]: Соединение установлено
+[01:22:52:797] [nioEventLoopGroup-0-10/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
+[01:22:52:798] [nioEventLoopGroup-0-10/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 16
+[01:22:52:799] [nioEventLoopGroup-0-10/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
+[01:22:52:801] [nioEventLoopGroup-0-10/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 209410
+[01:22:52:801] [nioEventLoopGroup-0-10/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:22:52:801] [nioEventLoopGroup-0-10/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:22:52:801] [nioEventLoopGroup-0-10/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:22:52:801] [nioEventLoopGroup-0-10/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:40:11:328] [nioEventLoopGroup-0-4/INFO]: exceptionCaught
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_151]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:311) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:853) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:240) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+[01:40:11:330] [nioEventLoopGroup-0-4/INFO]: Соединение разорвано
+[01:40:15:424] [nioEventLoopGroup-0-9/INFO]: Соединение установлено
+[01:40:15:466] [nioEventLoopGroup-0-9/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
+[01:40:15:467] [nioEventLoopGroup-0-9/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 16
+[01:40:15:468] [nioEventLoopGroup-0-9/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
+[01:40:15:470] [nioEventLoopGroup-0-9/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 209410
+[01:40:15:471] [nioEventLoopGroup-0-9/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:40:15:471] [nioEventLoopGroup-0-9/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:40:15:471] [nioEventLoopGroup-0-9/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:40:15:471] [nioEventLoopGroup-0-9/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:40:32:433] [nioEventLoopGroup-0-9/INFO]: exceptionCaught
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_151]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:311) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:853) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:240) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+[01:40:32:433] [nioEventLoopGroup-0-9/INFO]: Соединение разорвано
+[01:40:37:526] [nioEventLoopGroup-0-7/INFO]: Соединение установлено
+[01:40:37:607] [nioEventLoopGroup-0-7/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
+[01:40:37:607] [nioEventLoopGroup-0-7/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 16
+[01:40:37:609] [nioEventLoopGroup-0-7/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
+[01:40:37:610] [nioEventLoopGroup-0-7/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 209410
+[01:40:37:612] [nioEventLoopGroup-0-7/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:40:37:612] [nioEventLoopGroup-0-7/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:40:37:612] [nioEventLoopGroup-0-7/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:40:37:612] [nioEventLoopGroup-0-7/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:56:50:264] [nioEventLoopGroup-0-11/INFO]: exceptionCaught
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_151]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:311) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:853) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:240) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+[01:56:50:265] [nioEventLoopGroup-0-11/INFO]: Соединение разорвано
+[01:56:55:122] [nioEventLoopGroup-0-15/INFO]: Соединение установлено
+[01:56:55:162] [nioEventLoopGroup-0-15/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
+[01:56:55:162] [nioEventLoopGroup-0-15/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 16
+[01:56:55:164] [nioEventLoopGroup-0-15/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
+[01:56:55:168] [nioEventLoopGroup-0-15/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 209410
+[01:56:55:170] [nioEventLoopGroup-0-15/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:56:55:170] [nioEventLoopGroup-0-15/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:56:55:170] [nioEventLoopGroup-0-15/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:56:55:171] [nioEventLoopGroup-0-15/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:57:06:793] [nioEventLoopGroup-0-15/INFO]: exceptionCaught
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_151]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:311) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:853) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:240) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+[01:57:06:794] [nioEventLoopGroup-0-15/INFO]: Соединение разорвано
+[01:57:11:567] [nioEventLoopGroup-0-6/INFO]: Соединение установлено
+[01:57:11:602] [nioEventLoopGroup-0-6/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
+[01:57:11:605] [nioEventLoopGroup-0-6/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 16
+[01:57:11:606] [nioEventLoopGroup-0-6/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
+[01:57:11:610] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 209410
+[01:57:11:611] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:57:11:611] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:57:11:611] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[01:57:11:611] [nioEventLoopGroup-0-6/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[02:09:25:851] [nioEventLoopGroup-0-6/INFO]: exceptionCaught
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_151]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:311) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:853) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:240) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+[02:09:25:869] [nioEventLoopGroup-0-6/INFO]: Соединение разорвано
+[02:09:30:108] [nioEventLoopGroup-0-7/INFO]: Соединение установлено
+[02:09:30:146] [nioEventLoopGroup-0-7/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
+[02:09:30:149] [nioEventLoopGroup-0-7/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 16
+[02:09:30:151] [nioEventLoopGroup-0-7/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
+[02:09:30:154] [nioEventLoopGroup-0-7/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 209410
+[02:09:30:155] [nioEventLoopGroup-0-7/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[02:09:30:155] [nioEventLoopGroup-0-7/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[02:09:30:156] [nioEventLoopGroup-0-7/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[02:09:30:156] [nioEventLoopGroup-0-7/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[02:09:52:187] [nioEventLoopGroup-0-7/INFO]: exceptionCaught
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_151]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:311) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:853) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:240) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+[02:09:52:188] [nioEventLoopGroup-0-7/INFO]: Соединение разорвано
+[02:09:57:501] [nioEventLoopGroup-0-13/INFO]: Соединение установлено
+[02:09:57:537] [nioEventLoopGroup-0-13/INFO]: Decoder HANDSHAKING, packet CHandshake, id 0, size 3
+[02:09:57:537] [nioEventLoopGroup-0-13/INFO]: Decoder LOGIN, packet CPacketLoginStart, id 0, size 16
+[02:09:57:539] [nioEventLoopGroup-0-13/INFO]: Encoder LOGIN, packet SPacketLoginSuccess, id 1, size 2
+[02:09:57:541] [nioEventLoopGroup-0-13/INFO]: Encoder PLAY, packet SPacketWorldLoad, id 1, size 209410
+[02:09:57:543] [nioEventLoopGroup-0-13/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[02:09:57:543] [nioEventLoopGroup-0-13/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[02:09:57:543] [nioEventLoopGroup-0-13/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[02:09:57:543] [nioEventLoopGroup-0-13/INFO]: Encoder PLAY, packet SLocationPlayer, id 2, size 19
+[02:13:07:046] [nioEventLoopGroup-0-1/INFO]: exceptionCaught
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_151]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:311) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:853) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:240) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:115) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) [netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+[02:13:07:047] [nioEventLoopGroup-0-1/INFO]: Соединение разорвано

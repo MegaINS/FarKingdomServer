@@ -7,16 +7,16 @@ INSERT INTO player_auth (login, email, password, sex, race, online,xpos,ypos) VA
 INSERT INTO player_auth (login, email, password, sex, race, online,xpos,ypos) VALUES ('Test_4','bbbb@mail.ru','1111','woman','2',FALSE,-1,1);
 
 
-INSERT INTO unit(name)  VALUES ('0');
-INSERT INTO unit(name)  VALUES ('1');
-INSERT INTO unit(name)  VALUES ('2');
-INSERT INTO unit(name)  VALUES ('3');
-INSERT INTO unit(name)  VALUES ('4');
-INSERT INTO unit(name)  VALUES ('5');
-INSERT INTO unit(name)  VALUES ('6');
-INSERT INTO unit(name)  VALUES ('7');
-INSERT INTO unit(name)  VALUES ('8');
-INSERT INTO unit(name)  VALUES ('9');
+INSERT INTO unit(name, level, hp, middam, maxdam, power)  VALUES ('0',1,100,2,4,10);
+INSERT INTO unit(name, level, hp, middam, maxdam, power)  VALUES ('1',1,100,3,4,10);
+INSERT INTO unit(name, level, hp, middam, maxdam, power)  VALUES ('2',2,200,5,6,100);
+INSERT INTO unit(name, level, hp, middam, maxdam, power)  VALUES ('3',2,200,4,10,100);
+INSERT INTO unit(name, level, hp, middam, maxdam, power)  VALUES ('4',3,300,10,20,1000);
+INSERT INTO unit(name, level, hp, middam, maxdam, power)  VALUES ('5',3,300,12,14,1000);
+INSERT INTO unit(name, level, hp, middam, maxdam, power)  VALUES ('6',4,600,10,30,10000);
+INSERT INTO unit(name, level, hp, middam, maxdam, power)  VALUES ('7',4,600,20,22,10000);
+INSERT INTO unit(name, level, hp, middam, maxdam, power)  VALUES ('8',5,1000,10,50,100000);
+INSERT INTO unit(name, level, hp, middam, maxdam, power)  VALUES ('9',5,1000,25,30,100000);
 
 
 INSERT INTO unit_world(unitid, count)  VALUES (2,45);

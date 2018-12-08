@@ -3,8 +3,7 @@ package ru.megains.farkingdom.network.packet.play
 import ru.megains.farkingdom.network.packet.{PacketBufferS, PacketWrite}
 import ru.megains.farkingdom.world.World
 
-class SPacketWorldLoad(val world:World) extends PacketWrite{
-
+class SPacketWorldLoad(val world: World) extends PacketWrite {
 
 
     override def writePacketData(buf: PacketBufferS): Unit = {
@@ -23,10 +22,22 @@ class SPacketWorldLoad(val world:World) extends PacketWrite{
                 buf.writeBoolean(value.army != null)
 
 
-                if(value.army != null){
+                if (value.army != null) {
                     buf.writeStringToBuffer(value.army.name)
-
-                    value.army.units.foreach(u=>if(u == null)  buf.writeInt(0) else  buf.writeInt(u.baseUnit.name.toInt))
+                    value.army.units.foreach(
+                        u =>
+                            if (u == null) {
+                                buf.writeInt(0)
+                            } else {
+                                buf.writeInt(u.baseUnit.id)
+                                buf.writeStringToBuffer(u.baseUnit.name)
+                                buf.writeInt(u.baseUnit.level)
+                                buf.writeInt(u.baseUnit.midDam)
+                                buf.writeInt(u.baseUnit.maxDam)
+                                buf.writeInt(u.baseUnit.hp)
+                                buf.writeInt(u.baseUnit.power)
+                            }
+                    )
                 }
         }
     }

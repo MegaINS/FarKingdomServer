@@ -88,8 +88,21 @@ object Parsers {
 
     val baseUnit : RowParser[BaseUnit] = {
         get[Int]("id") ~
-                get[String]("name") map{
-            case id~name =>new BaseUnit(id,name)
+                get[String]("name") ~
+                get[Int]("level") ~
+                get[Int]("hp") ~
+                get[Int]("middam") ~
+                get[Int]("maxdam") ~
+                get[Int]("power") map{
+            case idIn~nameIn~levelIn~hpIn~middamIn~maxdamIn~powerIn =>new BaseUnit(){
+                id = idIn
+                name = nameIn
+                level = levelIn
+                hp = hpIn
+                midDam = middamIn
+                maxDam = maxdamIn
+                power = powerIn
+            }
         }
     }
 
