@@ -25,7 +25,7 @@ class GameCell(val xPos:Int,val yPos:Int,val tile:String) {
     }
 
     def addPlayer(playerIn: Player): Boolean = {
-        if(player == null){
+        if(player == null && army == null){
             player = playerIn
             player.x = xPos
             player.y = yPos
