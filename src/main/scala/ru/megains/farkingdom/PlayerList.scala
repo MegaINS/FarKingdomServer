@@ -1,6 +1,5 @@
 package ru.megains.farkingdom
 
-import ru.megains.farkingdom.db.DBPlayerInfo
 import ru.megains.farkingdom.network.NetworkManager
 import ru.megains.farkingdom.network.handler.NetHandlerPlayServer
 import ru.megains.farkingdom.network.packet.play.{SLocationPlayer, SPacketWorldLoad}
@@ -9,7 +8,7 @@ import ru.megains.farkingdom.world.World
 class PlayerList(val server: FKServer) {
 
 
-    val players:List[Player] =  DBPlayerInfo.load()
+    var players: List[Player] = _
 
 
 

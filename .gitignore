@@ -40,6 +40,9 @@
 .idea/*.iml
 .idea/modules
 
+logs/
+
+
 # CMake
 cmake-build-*/
 

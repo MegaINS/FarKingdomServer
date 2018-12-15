@@ -18,10 +18,13 @@ class FKServer extends Logger [FKServer]{
     val networkSystem = new NetworkSystem(this)
 
     def start(): Boolean ={
+
+        playerList = new PlayerList(this)
         world = new World(this)
         world.createMap()
 
-        playerList = new PlayerList(this)
+        Bootstrap.start(this)
+
         log.info("Start NetworkSystem")
         networkSystem.startLan(null,8080)
 

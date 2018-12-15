@@ -6,7 +6,7 @@ object Units {
 
 
 
-    val units:Map[Int,BaseUnit] = DBUnits.load()
+    var units:Map[Int,BaseUnit] = _
 
     def getWorldUnit(id: Int): WorldUnit = {
        val idCount:(Int,Int) = DBUnits.loadWorldUnit(id)

@@ -21,7 +21,6 @@ CREATE TABLE player_auth (
 CREATE TABLE unit (
   id INT NOT NULL AUTO_INCREMENT,
   name VARCHAR(255) NOT NULL,
-
   level INT NOT NULL,
   hp INT NOT NULL,
   middam INT NOT NULL,
@@ -42,6 +41,8 @@ CREATE TABLE unit_world (
 
 CREATE TABLE army (
   id INT NOT NULL AUTO_INCREMENT,
+  parentid INT NOT NULL,
+  parenttype ENUM('player','bot') NOT NULL ,
   xpos INT NOT NULL,
   ypos INT NOT NULL,
   name VARCHAR(255) NOT NULL,
